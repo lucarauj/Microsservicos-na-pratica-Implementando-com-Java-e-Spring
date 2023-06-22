@@ -29,3 +29,11 @@
 - RequestMapping
 - @Service
 - @Autowired
+- @GetMapping
+- @PostMapping
+- @PutMapping
+- @DeleteMapping
+- @PathVariable
+- @RequestBody
+- @Valid
+- @Configuration
