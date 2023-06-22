@@ -8,6 +8,7 @@
 - Lombok
 - Validation
 - Flyway Migration
+- ModelMapper
 
 ## Anotações:
 
@@ -19,3 +20,12 @@
 - @AllArgsConstructor
 - @Id
 - @GeneratedValue(strategy = GenerationType.IDENTITY)
+- @NotNull
+- @Positive
+- @NotBlank
+- @Size
+- @Enumerated(EnumType.STRING)
+- @RestController
+- RequestMapping
+- @Service
+- @Autowired
