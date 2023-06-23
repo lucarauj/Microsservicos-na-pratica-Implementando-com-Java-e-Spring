@@ -41,7 +41,8 @@
 - @Valid
 - @Configuration
 - @Bean
-- @EnableEurekaCliente
+- @EnableEurekaClient
+- @Value
 
 ## Pedidos Microsserviço
 
@@ -87,7 +88,8 @@
 - @Transactional
 - @Modifying(clearAutomatically = true)
 - @Query
-- @EnableEurekaCliente
+- @EnableEurekaClient
+- @Value
 
 ## Server Microsserviço
 
@@ -98,3 +100,14 @@
 ## Anotações:
 
 - @EnableEurekaServer
+
+## Gateway Microsserviço
+
+## Dependências:
+
+- Eureka Discovery Client 
+- Gateway
+
+## Anotações:
+
+- @EnableEurekaClient
