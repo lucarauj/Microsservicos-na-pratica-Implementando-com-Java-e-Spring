@@ -37,3 +37,14 @@
 - @RequestBody
 - @Valid
 - @Configuration
+- @Bean
+
+## Service Discovery
+
+## Dependências:
+
+- Eureka Server
+
+## Anotações:
+
+- @EnableEurekaServer
