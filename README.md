@@ -1,8 +1,13 @@
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/lucarauj/Microsservicos-na-pratica-Implementando-com-Java-e-Spring/blob/main/LICENSE)
 
-# Microsservicos na prática: Implementando com Java e Spring
+<h1 align="center">Microsservicos na prática: </h1>
+<h2 align="center">Implementando com Java e Spring</h2>
 
-## Pagamentos Microsserviço
+<p align="center"><img width="400px" src="https://github.com/lucarauj/assets/blob/main/Spring.png" /></p>
+
+<br>
+
+## 1️⃣ Pagamentos Microsserviço
 
 ## Dependências:
 
@@ -20,42 +25,42 @@
 
 ## Anotações:
 
-- @Entity
-- @Table
-- @Getter
-- @Setter
-- @NoArgsConstructor
-- @AllArgsConstructor
-- @Id
-- @GeneratedValue(strategy = GenerationType.IDENTITY)
-- @NotNull
-- @Positive
-- @NotBlank
-- @Size
-- @Enumerated(EnumType.STRING)
-- @RestController
-- @RequestMapping
-- @Service
 - @Autowired
+- @AllArgsConstructor
+- @Bean
+- @Configuration
+- @CircuitBreaker
+- @DeleteMapping
+- @Entity
+- @Enumerated(EnumType.STRING)
+- @EnableFeignClients
+- @EnableEurekaClient
+- @FeignClient
+- @Getter
 - @GetMapping
+- @GeneratedValue(strategy = GenerationType.IDENTITY)
+- @Id
+- @NoArgsConstructor
+- @NotNull
+- @NotBlank
 - @PostMapping
 - @PutMapping
-- @DeleteMapping
 - @PathVariable
-- @RequestBody
-- @Valid
-- @Configuration
-- @Bean
-- @EnableEurekaClient
-- @Value
-- @EnableFeignClients
-- @FeignClient
 - @PatchMapping
-- @CircuitBreaker
+- @Positive
+- @RestController
+- @RequestMapping
+- @RequestBody
+- @Service
+- @Setter
+- @Size
+- @Table
+- @Valid
+- @Value
 
 <br>
 
-## Pedidos Microsserviço
+## 2️⃣ Pedidos Microsserviço
 
 ## Dependências:
 
@@ -70,41 +75,41 @@
 
 ## Anotações:
 
-- @Entity
-- @Table
-- @Getter
-- @Setter
-- @NoArgsConstructor
+- @Autowired
 - @AllArgsConstructor
-- @Id
+- @Bean
+- @Configuration
+- @Entity
+- @EnableEurekaClient
+- @Enumerated(EnumType.STRING)
+- @GetMapping
+- @Getter
 - @GeneratedValue(strategy = GenerationType.IDENTITY)
+- @Id
+- @OneToMany
+- @ManyToOne
+- @Modifying(clearAutomatically = true)
+- @NoArgsConstructor
 - @NotNull
 - @Positive
-- @ManyToOne
-- @OneToMany
-- @RequiredArgsConstructor
-- @Enumerated(EnumType.STRING)
-- @RestController
-- @RequestMapping
-- @Service
-- @Autowired
-- @GetMapping
 - @PostMapping
 - @PutMapping
 - @PathVariable
-- @RequestBody
-- @Valid
-- @Configuration
-- @Bean
-- @Transactional
-- @Modifying(clearAutomatically = true)
 - @Query
-- @EnableEurekaClient
+- @RequestBody
+- @RequiredArgsConstructor
+- @RestController
+- @RequestMapping
+- @Setter
+- @Service
+- @Table
+- @Transactional
+- @Valid
 - @Value
 
 <br>
 
-## Server Microsserviço
+## 3️⃣ Server Microsserviço
 
 ## Dependências:
 
@@ -116,7 +121,7 @@
 
 <br>
 
-## Gateway Microsserviço
+## 4️⃣ Gateway Microsserviço
 
 ## Dependências:
 
@@ -126,6 +131,12 @@
 ## Anotações:
 
 - @EnableEurekaClient
+
+<br>
+
+## Sistema:
+
+<img width="1000px" src="https://github.com/lucarauj/Microsservicos-na-pratica-Implementando-com-Java-e-Spring/blob/main/outros/Eureka.png"/>
 
 <br>
 
