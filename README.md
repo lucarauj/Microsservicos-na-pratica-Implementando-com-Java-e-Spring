@@ -12,6 +12,9 @@
 - Flyway Migration
 - ModelMapper
 - Eureka Discovery Client
+- OpenFeign
+- Resilience4j
+- Spring Boot Starter AOP
 
 ## Anotações:
 
@@ -43,6 +46,12 @@
 - @Bean
 - @EnableEurekaClient
 - @Value
+- @EnableFeignClients
+- @FeignClient
+- @PatchMapping
+- @CircuitBreaker
+
+<br>
 
 ## Pedidos Microsserviço
 
@@ -91,6 +100,8 @@
 - @EnableEurekaClient
 - @Value
 
+<br>
+
 ## Server Microsserviço
 
 ## Dependências:
@@ -100,6 +111,8 @@
 ## Anotações:
 
 - @EnableEurekaServer
+
+<br>
 
 ## Gateway Microsserviço
 
