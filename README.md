@@ -1,3 +1,5 @@
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/lucarauj/Microsservicos-na-pratica-Implementando-com-Java-e-Spring/blob/main/LICENSE)
+
 # Microsservicos na prática: Implementando com Java e Spring
 
 ## Pagamentos Microsserviço
@@ -124,3 +126,11 @@
 ## Anotações:
 
 - @EnableEurekaClient
+
+<br>
+
+## 👨‍🎓 Aluno
+
+#### Lucas Araujo
+
+<a href="https://www.linkedin.com/in/lucarauj"><img alt="lucarauj | LinkdeIN" width="40px" src="https://user-images.githubusercontent.com/43545812/144035037-0f415fc7-9f96-4517-a370-ccc6e78a714b.png" /></a>
